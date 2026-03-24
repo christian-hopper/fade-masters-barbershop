@@ -120,6 +120,7 @@
 @media (max-width: 768px) {
   .services__title {
     font-size: 32px;
+    line-height: 32px;
   }
   .services__container {
     max-width: 592px;

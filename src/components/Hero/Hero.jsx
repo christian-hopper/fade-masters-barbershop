@@ -1,5 +1,5 @@
+import heroImage from "../../assets/images/hero-bg.jpg";
 import "./Hero.css";
-import heroImage from "../../assets/images/hero-bg.jpg"; // your downloaded image
 
 function Hero() {
   const scrollToContact = () => {

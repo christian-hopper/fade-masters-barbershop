@@ -2,15 +2,15 @@ import haircutImg from "../../assets/images/haircut.jpg";
 import beardImg from "../../assets/images/beard-trim.jpg";
 import shaveImg from "../../assets/images/razor-shave.jpg";
 import kidsImg from "../../assets/images/kids-haircut.jpg";
-import Scissors from "../../assets/icons/scissors.svg";
-import Wind from "../../assets/icons/wind.svg";
-import Sparkles from "../../assets/icons/sparkles.svg";
-import Baby from "../../assets/icons/baby.svg";
+import scissorsIcon from "../../assets/icons/scissors.svg";
+import windIcon from "../../assets/icons/wind.svg";
+import sparklesIcon from "../../assets/icons/sparkles.svg";
+import babyIcon from "../../assets/icons/baby.svg";
 import "./Services.css";
 
 const services = [
   {
-    icon: Scissors,
+    icon: scissorsIcon,
     title: "Haircuts",
     description:
       "Expert cuts tailored to your style. From classic to contemporary.",
@@ -18,21 +18,21 @@ const services = [
     image: haircutImg,
   },
   {
-    icon: Wind,
+    icon: windIcon,
     title: "Beard Trim",
     description: "Precision trimming and shaping for the perfect beard.",
     price: "$25",
     image: beardImg,
   },
   {
-    icon: Sparkles,
+    icon: sparklesIcon,
     title: "Razor Shave",
     description: "Traditional hot towel shave with premium products.",
     price: "$40",
     image: shaveImg,
   },
   {
-    icon: Baby,
+    icon: babyIcon,
     title: "Kids Haircuts",
     description: "Gentle, fun haircuts for children 12 and under.",
     price: "$25",

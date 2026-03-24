@@ -1,6 +1,6 @@
 import awardIcon from "../../assets/icons/award.svg";
 import usersIcon from "../../assets/icons/users.svg";
-import clockIcon from "../../assets/icons/clock.svg";
+import clockIcon from "../../assets/icons/clock-orange.svg";
 
 import aboutImg from "../../assets/images/about-haircut.jpg";
 

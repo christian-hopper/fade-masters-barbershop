@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import scissors from "../../assets/images/scissors.svg";
+import scissors from "../../assets/icons/scissors.svg";
 import "./Navigation.css";
 
 function Navigation() {

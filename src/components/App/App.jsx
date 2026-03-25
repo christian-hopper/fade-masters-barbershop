@@ -17,8 +17,8 @@ function App() {
         <Gallery />
         <About />
         <Contact />
+        <Footer />
       </main>
-      <Footer />
     </div>
   );
 }

@@ -1,0 +1,142 @@
+/* Section */
+.footer {
+  background: #0a0a0a;
+  border-top: 1px solid #222;
+  padding: 48px 0;
+}
+
+/* Container */
+.footer__container {
+  max-width: 1488px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Grid */
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  margin: 0 0 32px 0;
+}
+
+/* Logo */
+.footer__logo {
+  display: flex;
+  align-items: center;
+  margin: 0 0 16px 0;
+  white-space: nowrap;
+}
+
+.footer__logo-img {
+  width: 32px;
+  height: 32px;
+  margin: 0 12px 0 0;
+}
+
+.footer__logo-text {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Text */
+.footer__text {
+  color: #99a1af;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Headings */
+.footer__heading {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 0 16px 0;
+}
+
+/* List */
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  color: #99a1af;
+  margin: 0 0 8px 0;
+}
+
+.footer__list-item:last-child {
+  margin: 0;
+}
+
+/* Links */
+.footer__link {
+  background: none;
+  border: none;
+  color: #99a1af;
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.3s;
+  padding: 0;
+}
+
+.footer__link:hover {
+  color: #d4af37;
+}
+
+/* Social Icons */
+.footer__socials {
+  display: flex;
+  gap: 16px;
+}
+
+.footer__icon {
+  background: #111;
+  padding: 12px;
+  border-radius: 50%;
+  display: inline-flex;
+  transition: background 0.3s ease;
+}
+
+.footer__icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__icon:hover {
+  background: #d4af37;
+}
+
+/* Bottom */
+.footer__bottom {
+  border-top: 1px solid #222;
+  padding: 32px 0 0;
+  text-align: center;
+  color: #777;
+  font-size: 13px;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .footer__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer__container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    max-width: 592px;
+  }
+}

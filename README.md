@@ -6,13 +6,13 @@ A modern, responsive barbershop website built with **React** and **modular CSS**
 
 ## 🚀 Live Demo
 
-> 👉 https://christian-hopper.github.io/fade-masters-barbershop
+> 👉 [Fade Masters Barbershop on GitHub Pages](https://christian-hopper.github.io/fade-masters-barbershop)
 
 ---
 
 ## 📂 GitHub Repository
 
-👉 https://github.com/christian-hopper/fade-masters-barbershop
+👉 [Repository for Fade Masters Barbershop](https://github.com/christian-hopper/fade-masters-barbershop)
 
 ---
 

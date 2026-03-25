@@ -66,13 +66,13 @@
 
 .contact__item-title {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0 0 8px 0;
 }
 
 .contact__item-text {
   color: #aaa;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
 }
 
@@ -134,7 +134,7 @@
   background: #111;
   border: 1px solid #333;
   border-radius: 8px;
-  color: #b3b3b3;
+  color: #6a7282;
   outline: none;
   transition: border 0.3s ease;
   box-sizing: border-box;
@@ -150,6 +150,7 @@
   color: #000;
   padding: 12px 24px;
   border: none;
+  height: 48px;
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease;

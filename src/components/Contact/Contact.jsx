@@ -128,10 +128,10 @@ function Contact() {
               <textarea
                 className="contact__form-input"
                 name="message"
-                rows="5"
+                rows="8"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="Tell us about your desired service..."
+                placeholder="Tell us about your desired service or ask a question..."
                 required
               ></textarea>
             </div>
